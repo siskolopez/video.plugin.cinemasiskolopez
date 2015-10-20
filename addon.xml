@@ -3,18 +3,7 @@
        name="CINEMASISKOLOPEZ"
        version="1.0.0"
        provider-name="Shani">
-       <settings>
-    <category label="32001">
-        <setting label="32011" type="text"   id="username" default=""/>
-        <setting label="32012" type="text"   id="password" option="hidden"  enable="!eq(-1,)" default=""/>
-        <setting label="32053" type="slider" id="limit" subsetting="true" default="20" range="5,5,100" option="int" />
-        <setting type="sep"/>
-        <setting id="debug" type="bool" label="32013" default="false"/>
-    </category>
-    <category label="32010">
-        <setting label="32032" type="action" action="RunScript(my.addon.id, downloadreport)"/>
-    </category>
-</settings>
+       
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
