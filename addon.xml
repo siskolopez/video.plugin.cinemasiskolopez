@@ -2,7 +2,7 @@
 <addon id="plugin.video.CINEMASISKOLOPEZ"
        name="CINEMASISKOLOPEZ"
        version="1.0.0"
-       provider-name="Shani">
+       provider-name="siskolopez">
        
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
