@@ -3,7 +3,7 @@
     <category label="Add siskolopez Source">
     <setting id="new_url_source" type="text" label="Add URL" default="https://dl.dropbox.com/s/vbjdod2wb0ej2fs/bienvenido%20a%20bassfox%20version%202.0.xml" visible="eq(-2,1)"/>
     <setting type="sep" />
-    <setting type="action" label="añadir lista  " option="close" action="RunPlugin(plugin://video.plugin.cinemasiskolopez-version-1.0.0/?mode=7)" />
+    <setting type="action" label="añadir salas " option="close" action="RunPlugin(plugin://video.plugin.cinemasiskolopez-version-1.0.0/?mode=7)" />
     <setting type="sep" />
   
   </category>
